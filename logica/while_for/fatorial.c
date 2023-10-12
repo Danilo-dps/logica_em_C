@@ -6,8 +6,7 @@ int main(){
 	i = 0;
 	
 	while(i < a){
-		i++;
-		b = i * i;
+		b = a * i++;
 	}
 	printf("%d", b);
 }
