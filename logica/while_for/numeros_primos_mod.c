@@ -12,7 +12,6 @@ int main(){
 		if(n % divisor == 0)
 		{
 			achou = 1;
-			printf("%d\n", divisor);
 			//imprimindo o primeiro divisor encontrado
 		}
 		else
@@ -25,6 +24,7 @@ int main(){
 	{
 		//se achou um divisor, então n não é primo
 	    printf("N\n");	
+	    printf("%d\n", divisor);
 	}
 	else
 	{

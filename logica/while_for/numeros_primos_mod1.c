@@ -6,7 +6,7 @@ int main(){
 	divisor = 2;
 	achou = 0;
 	
-	while(divisor < n && !achou)
+	while(divisor < (n/2) && !achou)
 	{
 		if(n % divisor == 0)
 		{
@@ -27,4 +27,3 @@ int main(){
 	}
 	return 0;
 }
-//fazer divisor ir até n/2, ainda não consegui

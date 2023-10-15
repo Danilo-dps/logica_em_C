@@ -3,26 +3,20 @@
 
 int main(){
 		setlocale (LC_ALL, "Portuguese");
-	int n, divisor, achou;
+	int n, divisor;
 	scanf("%d", &n);
 	divisor = 2;
-	achou = 0;
 	
 	while(n != 0)
 	{
-	 while(n % divisor == 0)
-	 {
-			achou++;
-			if(achou >= 1)
-			{
-				printf("Não é primo\n");
-			}
-			else
-			{
-				printf("É primo\n");
-			}
-		scanf("%d", &n);
-     }
+		  if(n % divisor == 0)
+		  {
+			printf("Primo\n");
+		  }
+		  else
+		  {
+			printf("Não é primo\n");
+		  }
 	}
 	return 0;
 }
